@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --variableParrafo: 1.2rem;
+    --color1:  #cb4d0a;
+    --background: black;
+    --color2: white;
+    --color-div-general: #1365a8;
+    --ancho-div-general:300px;
+    --margen-div-general: auto;
+    --colores-div-secundario: #720c5c;
+    --ancho-div-secundario:100px;
+    --margen-div-secundario: auto;
+    --floar-div-general: left;
+    --float-div-secundario: left;
+    --float-div-secundario2: right;
+}
+
+p {
+    color: var(--color1);
+    font-size: var(--variableParrafo);
+}
+.enca{
+    background-color: var(--background);
+    color: var(--color2);
+}
+.table{
+    border-color: var(--color1);
+}
+button{
+    background-color: var(--color1);
+    color: var(--color2);
+}
+.div1{
+    background-color: var(--color-div-general);
+    width: var(--ancho-div-general);
+    margin: var(--margen-div-general);
+    float: var(--floar-div-general);
+}
+.div1-sub{
+    background-color: var(--colores-div-secundario);
+    width: var(--ancho-div-secundario);
+    margin: var(--margen-div-secundario);
+    float: var(--float-div-secundario);
+}
+.div2-sub{
+    background-color: var(--colores-div-secundario);
+    width: var(--ancho-div-secundario);
+    margin: var(--margen-div-secundario);
+    float: var(--float-div-secundario2);
+}
